@@ -1,0 +1,7 @@
+keys:
+  - name: "goapi"
+    args: ["go","build","."]
+  artifacts:
+    objects:
+      location: ['STORAGE_LOCATION']
+      path: ['ARTIFACT_PATH']
